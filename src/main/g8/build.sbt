@@ -16,3 +16,5 @@ lazy val root = (project in file("."))
     filters
   )
 )
+
+routesGenerator := InjectedRoutesGenerator
